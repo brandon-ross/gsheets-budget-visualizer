@@ -9,6 +9,10 @@ st.set_page_config(
     layout="wide"
 )
 
+if st.sidebar.button('Refresh Data'):
+    st.cache_data.clear()  # Clear all cached data
+    st.rerun()
+
 st.markdown("""
 <style>
     header {
