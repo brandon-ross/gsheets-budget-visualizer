@@ -1,3 +1,2 @@
 venv/
 .streamlit/secrets.toml
-run_app.bat
